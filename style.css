@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 2rem;
+}
+
+#colour_selection {
+  margin: 2rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 700px;
+}
+
+li {
+  margin: 0 0 1rem 0;
+}
+
+.codes {
+  padding: 1rem;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+}
+
+.colourSelcted {
+  padding: 0.5rem 1rem 1rem 1rem;
+  border-right: 1px black solid;
+}
+
+ul {
+  list-style: none;
+}
