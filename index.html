@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Colour Selector</h1>
-    </header>
+    <header></header>
     <main>
       <section id="colour_selection">
+        <h1>Colour Selector</h1>
+
+        <div class="colourSelcted">
+          <label for="Select Colour">Select Colour Here: </label>
+          <input type="color" value="#3a45df" id="colour_selector" />
+        </div>
+        <div class="colourBox"></div>
         <div class="codes">
           <ul>
             <li class="hex">HEX: #3a45df</li>
-            <li class="rgb">RGB: 58, 69, 223</li>
+            <li class="rgb">RGB: (58, 69, 223)</li>
             <li class="hsl">HSL:</li>
           </ul>
-        </div>
-        <div class="colourSelcted">
-          <label for="Select Colour">Select colour: </label>
-          <input type="color" value="#3a45df" id="colour_selector" />
         </div>
       </section>
     </main>
